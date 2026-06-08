@@ -8,7 +8,7 @@ The extension installs a `ClientAuthentication_hook` that is invoked after every
 
 ## Requirements
 
-- PostgreSQL 17 or later (Previous versions have not been tested)
+- PostgreSQL 15-17 (Previous versions have not been tested), for PG 18 use [pg_stat_login](https://github.com/asotolongo/pg_stat_login).
 - The extension **must** be listed in `shared_preload_libraries`
 
 ## Installation
